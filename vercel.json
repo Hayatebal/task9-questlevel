@@ -1,12 +1,5 @@
 {
-  "version": 2,
-  "builds": [
-    {
-      "src": "*.html",
-      "use": "@vercel/static"
-    }
-  ],
-  "routes": [
+ "routes": [
     {
       "src": "/level1",
       "dest": "level1.html"
@@ -33,3 +26,4 @@
     }
   ]
 }
+
